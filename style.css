@@ -9,6 +9,7 @@ body{
     font-family: sans-serif;
     background-image: url("img/1240.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -25,7 +26,7 @@ header{
     color: white;
 }
 
-ul {
+ul.navi {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,11 +34,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  li.navi {
     float: left;
   }
   
-  li a {
+  li.navi a {
     display: block;
     color: white;
     text-align: center;
@@ -45,8 +46,16 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  li.navi a:hover {
     background-color: #111;
+  }
+
+  .paragraph {
+    color: white;
+    width: 50%;
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 40px;
   }
 
   article{
@@ -54,6 +63,10 @@ ul {
       margin: 40px;
       width: 40%;
       float: right;
+      display: inline;
+      position: absolute;
+      top: 160px;
+      right: 10px;
   }
 
   div.gallery {
@@ -87,4 +100,35 @@ ul {
   div.desc {
     padding: 15px;
     text-align: center;
+    background-color: black;
+  }
+
+  div.tentoonstelling {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+  }
+
+  div.tentoonstelling h3 {
+    border-bottom: 1px solid white;
+    width: 32%;
+  }
+
+  p.tentoon {
+    padding-bottom: 40px;
+  }
+
+  footer {
+    color: white;
+    background-color: black;
+    padding-left: 40px;
+    text-align: center;
+  }
+
+  footer h3 {
+    padding: 10px;
+  }
+
+  p.open {
+    padding-bottom: 20px;
   }
