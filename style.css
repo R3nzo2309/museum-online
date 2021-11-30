@@ -83,10 +83,6 @@ ul.navi {
     width: 180px;
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
   div.gallery img {
     width: 100%;
     height: 225px;
@@ -131,4 +127,72 @@ ul.navi {
 
   p.open {
     padding-bottom: 20px;
+  }
+
+  div.slideshow {
+    position: absolute;
+    left: 907px;
+    top: 750px;
+  }
+
+  div.slideshow a {
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    background-color: transparent;
+    opacity: 50%;
+  } 
+
+  div.slideshow a:hover {
+    background-color: gray;
+    transform: scale(1.2);
+  }
+
+  div.slideshow img {
+    width: 557px;
+    height: 300px;
+  }
+
+  .buttonNext {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    color: chartreuse;
+    background-color: black;
+    display: block;
+    width: 50px;
+    position: absolute;
+    left: 530px;
+    top: 50%;
+    opacity: 60%;
+    text-align: center;
+  }
+
+  .buttonPrevious {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    color: chartreuse;
+    background-color: black;
+    display: block;
+    width: 50px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    opacity: 60%;
+    text-align: center;
+  }
+
+  .buttonNext:hover {
+    background-color: gray;
+    transform: scale(1.2);
+  }
+
+  .buttonPrevious:hover {
+    background-color: gray;
+    transform: scale(1.2);
   }

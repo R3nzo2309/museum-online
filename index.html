@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Rijksmuseum landings page</title>
 </head>
 <body>
@@ -102,14 +103,58 @@
       <li>vincent mentzel: 28 januari t/m 6 juni</li>
     </ul>
   </div>
+
+  <div class="slideshow">
+    <a href="https://www.rijksmuseum.nl/nl/bezoek/in-het-museum">in het museum</a>
+    <div class="buttonNext" onclick="onClickNext()"> --> </div>
+    <div class="buttonPrevious" onclick="onClickPrevious()"> <-- </div>
+    <img id="img" src="img/melkmeisje.jpg" alt="random foto">
+  </div>
+
+  <script>
+    var position = 0;
+var img1 = "img/melkmeisje.jpg";
+var img2 = "img/foto-1.png";
+var img3 = "img/slagwaterloo.jpg";
+var imgElement = document.getElementById("img");
+
+function onClickNext(){
+    position = position + 1
+    if (position == 3){
+        position = 0;
+    }
+    setImage();
+}
+
+function onClickPrevious(){
+    position = position - 1
+    if (position == -1){
+        position = 2;
+    }
+    setImage();
+}
+
+function setImage(){
+    if (position == 0){
+        imgElement.src = img1;
+    }
+    else if (position == 1){
+        imgElement.src = img2;
+    }
+    else if (position == 2){
+        imgElement.src = img3;
+    }
+}
+  </script>
+
   <footer>
     <h3>contact:</h3>
     <p class="contact">
       <b>Rijksmuseum Amsterdam</b><br>
       postbus: 74888<br>
-      address: 1070 DN Amsterdam<br>
-      e-mail: info@rijksmuseum.nl<br>
-      telefoon nummer: +31 0 20 6747 000<br>
+      address: <address>1070 DN Amsterdam</address><br>
+      e-mail: <a href="mailto:info@rijksmuseum.nl">info@rijksmuseum.nl</a><br>
+      telefoon nummer: <a href="tel:+31 0 20 6747 000">+31 0 20 6747 000</a><br>
       <br>
       <b>bezoek address</b><br>
       museumstraat 1<br>
