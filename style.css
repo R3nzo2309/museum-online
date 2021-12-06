@@ -1,198 +1,292 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    font-size: 20px;
-    font-family: sans-serif;
-    background-image: url("img/1240.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-image: url("img/1240.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1{
-    display: inline;
-    font-size: 250%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid black;
+  display: inline-block;
+  font-size: 250%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
 }
 
 header{
-    margin: 0 auto;
-    padding: 40px;
-    background-color: black;
-    color: white;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 ul.navi {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li.navi {
-    float: left;
-  }
-  
-  li.navi a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li.navi a:hover {
-    background-color: #111;
-  }
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  .paragraph {
-    color: white;
-    width: 50%;
-    display: block;
-    padding-left: 40px;
-    padding-bottom: 40px;
-  }
+li.navi {
+  float: left;
+}
 
-  article{
-      color: white;
-      margin: 40px;
-      width: 40%;
-      float: right;
-      display: inline;
-      position: absolute;
-      top: 160px;
-      right: 10px;
-  }
+li.navi a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  div.gallery {
-    margin: 5px;
-    border: 2px solid #ccc;
-    float: right;
-    width: 180px;
-  }
+li.navi a:hover {
+  background-color: #111;
+}
 
-  div.imggallery {
-    margin: 5px;
-    border: 2px solid #ccc;
-    float: right;
-    width: 180px;
-  }
-  
-  div.gallery img {
+#img{
+  position: absolute;
+  top: 120px;
+}
+
+div.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.slideshow a {
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+  left: 670px;
+  background-color: transparent;
+  opacity: 50%;
+} 
+
+div.slideshow a:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+div.slideshow img {
+  width: 1100px;
+  height: 300px;
+  position: absolute;
+  top: 150px;
+  border-radius: 10px;
+}
+
+.buttonNext {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px;
+  color: chartreuse;
+  background-color: black;
+  display: block;
+  width: 50px;
+  position: absolute;
+  left: 1290px;
+  top: 250px;
+  opacity: 60%;
+  text-align: center;
+}
+
+.buttonPrevious {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px;
+  color: chartreuse;
+  background-color: black;
+  display: block;
+  width: 50px;
+  position: absolute;
+  left: 195px;
+  top: 250px;
+  opacity: 60%;
+  text-align: center;
+}
+
+.buttonNext:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+.buttonPrevious:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+.paragraph {
+  color: white;
+  width: 300px;
+  display: block;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.paragraph p{
+  padding: 10px;
+  height: 260px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.beginning{
+  position: absolute;
+  top: 440px;
+  width: 370px;
+  left: 210px;
+}
+
+.koninklijk{
+  position: absolute;
+  top: 440px;
+  left: 580px;
+  width: 370px;
+}
+
+.rijks{
+  position: absolute;
+  top: 440px;
+  left: 950px;
+  width: 370px;
+}
+
+.infobutton{
+  border: 1px white solid;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.imggal{
+  position: absolute;
+  top: 740px;
+  left: 725px;
+  width: 600px;
+  background-color: black;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+div.imggallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.imggallery img {
     width: 100%;
-    height: 225px;
-  }
+    height: 150px;
+}
 
-  div.imggallery img {
-      width: 100%;
-      height: 150px;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-    background-color: black;
-  }
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 
-  div.tentoonstelling {
-    padding-left: 40px;
-    padding-right: 40px;
-    color: white;
-  }
+div.tentoonstelling {
+  height: 444px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 740px;
+  left: 200px;
+}
 
-  div.tentoonstelling h3 {
-    border-bottom: 1px solid white;
-    width: 32%;
-  }
+div.tentoonstelling h3 {
+  border-bottom: 1px solid white;
+  width: 42%;
+}
 
-  p.tentoon {
-    padding-bottom: 40px;
-  }
+p.tentoon {
+  padding-bottom: 40px;
+}
 
-  footer {
-    color: white;
-    background-color: black;
-    padding-left: 40px;
-    text-align: center;
-  }
+footer {
+  color: white;
+  background-color: black;
+  padding-left: 40px;
+  text-align: left;
+  position: absolute;
+  top: 1190px;
+  width: 100%;
+  height: 200px;
+}
 
-  footer h3 {
-    padding: 10px;
-  }
+footer .vestiging{
+  position: absolute;
+  top: 10px;
+  left: 650px;
+}
 
-  p.open {
-    padding-bottom: 20px;
-  }
+footer .rijksmuseumcon{
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
 
-  div.slideshow {
-    position: absolute;
-    left: 907px;
-    top: 750px;
-  }
+footer .bezoeker{
+  position: absolute;
+  top: 10px;
+  left: 1100px;
 
-  div.slideshow a {
-    color: white;
-    border: 3px solid white;
-    border-radius: 50px;
-    padding: 10px;
-    position: absolute;
-    top: 75%;
-    left: 35%;
-    background-color: transparent;
-    opacity: 50%;
-  } 
+}
 
-  div.slideshow a:hover {
-    background-color: gray;
-    transform: scale(1.2);
-  }
+p.open {
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 220px;
+}
 
-  div.slideshow img {
-    width: 557px;
-    height: 300px;
-  }
+.mail{
+  position: absolute;
+  bottom: 20px;
+  left: 650px;
+}
 
-  .buttonNext {
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 5px;
-    color: chartreuse;
-    background-color: black;
-    display: block;
-    width: 50px;
-    position: absolute;
-    left: 530px;
-    top: 50%;
-    opacity: 60%;
-    text-align: center;
-  }
-
-  .buttonPrevious {
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 5px;
-    color: chartreuse;
-    background-color: black;
-    display: block;
-    width: 50px;
-    position: absolute;
-    left: -25px;
-    top: 50%;
-    opacity: 60%;
-    text-align: center;
-  }
-
-  .buttonNext:hover {
-    background-color: gray;
-    transform: scale(1.2);
-  }
-
-  .buttonPrevious:hover {
-    background-color: gray;
-    transform: scale(1.2);
-  }
+.tel{
+  position: absolute;
+  bottom: 20px;
+  left: 1100px;
+}
