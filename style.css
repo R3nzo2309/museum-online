@@ -238,7 +238,7 @@ div.tentoonstelling {
 
 div.tentoonstelling h3 {
   border-bottom: 1px solid white;
-  width: 42%;
+  width: 46%;
 }
 
 p.tentoon {
@@ -303,6 +303,25 @@ p.tentoon {
   left: 760px;
   top: 0px;
   border-radius: 20px;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  position: fixed;
+  top: 25px;
+  right: 60px;
+  background-color: rgb(196, 49, 49);
+  color: #111;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: brown;
+}
+
+button a{
+  color: #111;
 }
 
 footer {
