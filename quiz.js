@@ -73,6 +73,14 @@ var questions = [
     c: "rog",
     d: "schol",
     answer: "B"
+  },
+  {
+    question: " In de poppenhuizen uit de Rijksmuseumcollectie is werkelijk waar alles in miniatuur gemaakt, van toilet en keuken, tot schilderij en kostuum. Zo ook het eten. Wat is dit?",
+    a: "ham",
+    b: "kip",
+    c: "eend",
+    d: "Gans",
+    answer: "A"
   }
 ];
 // this get function is short for the getElementById function  
