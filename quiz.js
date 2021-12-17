@@ -3,46 +3,78 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, chD, c
 // this is a multidimensional array with 4 inner array elements with 5 elements inside them
 var questions = [
   {
-      question: "Waar staat het rijksmuseum",
-      a: "rotterdam",
-      b: "amsterdam",
-      c: "den-haag",
-      d: "alkmaar",
-      answer: "B"
-    },
+    question: "Waar staat het rijksmuseum",
+    a: "rotterdam",
+    b: "amsterdam",
+    c: "den-haag",
+    d: "alkmaar",
+    answer: "B"
+  },
   {
-      question: "Op welke leeftijd trouwden prins Willem II en prinses Maria Stuart in 1641?",
-      a: "19 en 14 jaar",
-      b: "60 en 56 jaar",
-      c: "14 en 9 jaar",
-      d: "20 en 70 jaar",
-      answer: "C"
-    },
+    question: "Op welke leeftijd trouwden prins Willem II en prinses Maria Stuart in 1641?",
+    a: "19 en 14 jaar",
+    b: "60 en 56 jaar",
+    c: "14 en 9 jaar",
+    d: "20 en 70 jaar",
+    answer: "C"
+  },
   {
-      question: "Wat was de bijnaam van koning Willem III?",
-      a: "koning gorilla",
-      b: "koning aap",
-      c: "de leeuwenkoning",
-      d: "prins pils",
-      answer: "A"
-    },
+    question: "Wat was de bijnaam van koning Willem III?",
+    a: "koning gorilla",
+    b: "koning aap",
+    c: "de leeuwenkoning",
+    d: "prins pils",
+    answer: "A"
+  },
   {
-      question: "In welke zaal heeft de Gouden Koets ooit gestaan?",
-      a: "nachtwachtzaal",
-      b: "eregalerij",
-      c: "voorhal",
-      d: "fietspassage",
-      answer: "C"
-    },
- {
-        question: "werkt het?",
-        a: "ja",
-        b: "nee",
-        c: "misschien",
-        d: "ooit",
-        answer: "A"
-      }
-  ];
+    question: "In welke zaal heeft de Gouden Koets ooit gestaan?",
+    a: "nachtwachtzaal",
+    b: "eregalerij",
+    c: "voorhal",
+    d: "fietspassage",
+    answer: "C"
+  },
+  {
+    question: "In 1806 werd Lodewijk Napoleon, de broer van Napoleon Bonaparte, koning van Nederland. Hoe stond hij bij zijn onderdanen bekend?",
+    a: "beest van frankrijk",
+    b: "slang van frankrijk",
+    c: "zwijn van holland",
+    d: "koning van holland",
+    answer: "D"
+  },
+  {
+    question: "Uit welk jaar komt het oudste object uit het Rijksmuseum?",
+    a: "5500 - 4400 V.Chr.",
+    b: "4400 - 3300 V.Chr.",
+    c: "3300 - 2200 v.chr.",
+    d: "2200 - 1100 V.Chr.",
+    answer: "C"
+  },
+  {
+    question: "‘Hansken is in de kelder’ staat op het schild van de ridder. Onder zijn voeten bevindt zich een opening. Als de schaal wordt gevuld met drank, komt Hansje omhoog. Waar stond Hansje symbool voor? ",
+    a: "een zuigeling",
+    b: "een engel",
+    c: "johannes de doper",
+    d: "johannes vermeer",
+    answer: "A"
+  },
+  {
+    question: "Wist je dat er ook ongeopende flessen wijn in de Rijksmuseumcollectie zijn? Deze behoren tot de scheepswrakvondsten. Kenners hebben een vermoeden welke soort wijn in de fles zit. Weet jij het ook? ",
+    a: "Brandewijn",
+    b: "Rosé",
+    c: "Port",
+    d: "Canei",
+    answer: "C"
+  },
+  {
+    question: "Welke vis was in de zeventiende eeuw in de Nederlandse republiek het meest populair om te eten?",
+    a: "zalm",
+    b: "haring",
+    c: "rog",
+    d: "schol",
+    answer: "B"
+  }
+];
 // this get function is short for the getElementById function  
 function get(x){
   return document.getElementById(x);

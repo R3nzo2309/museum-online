@@ -1,12 +1,126 @@
-body{
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #333;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: url("img/aardappel-man.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1{
+    display: inline-block;
+    font-size: 250%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+  
+  header{
+    margin: 0 auto;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  ul.navi {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.navi {
+    float: left;
+  }
+  
+  li.navi a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.navi a:hover {
+    background-color: #111;
+  }
+
+.quiz{
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    width: 1060px;
+    color: white;
 }
 
 div#test{
-    border:#5AB029 3px solid;
+    border: black 3px solid;
     padding:10px 40px 40px 40px;
-    background-color:#E5FCE3;
-    width:50%;
+    background-color:#363636ab;
 }
+
+h2{
+    background-color: #363636ab;
+    border: black 3px solid;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding-left: 40px;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  footer .vestiging{
+    position: absolute;
+    top: 10px;
+    left: 650px;
+  }
+  
+  footer .rijksmuseumcon{
+    position: absolute;
+    top: 10px;
+    left: 220px;
+  }
+  
+  footer .bezoeker{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+  
+  }
+  
+  p.open {
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 220px;
+  }
+  
+  .mail{
+    position: absolute;
+    bottom: 20px;
+    left: 650px;
+    color: white;
+  }
+  
+  .tel{
+    position: absolute;
+    bottom: 20px;
+    left: 1100px;
+    color: white;
+  }
