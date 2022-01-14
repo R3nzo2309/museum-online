@@ -73,7 +73,7 @@ div.slideshow a {
   padding: 10px;
   position: absolute;
   top: 170px;
-  left: 680px;
+  left: 45%;
   background-color: transparent;
   opacity: 50%;
 } 
@@ -100,7 +100,7 @@ div.slideshow img {
   display: block;
   width: 50px;
   position: absolute;
-  left: 1290px;
+  left: 84.5%;
   top: 250px;
   opacity: 60%;
   text-align: center;
@@ -115,7 +115,7 @@ div.slideshow img {
   display: block;
   width: 50px;
   position: absolute;
-  left: 195px;
+  left: 12.5%;
   top: 250px;
   opacity: 60%;
   text-align: center;
@@ -133,7 +133,7 @@ div.slideshow img {
 
 .paragraph {
   color: white;
-  width: 300px;
+  width: 70%;
   display: block;
   padding-left: 40px;
   padding-bottom: 40px;
@@ -149,23 +149,23 @@ div.slideshow img {
 .beginning{
   position: absolute;
   top: 440px;
-  width: 370px;
-  left: 210px;
+  width: 25%;
+  left: 14%;
   border-radius: 10px 0px 0px 10px;
 }
 
 .koninklijk{
   position: absolute;
   top: 440px;
-  left: 580px;
-  width: 370px;
+  left: 39%;
+  width: 25%;
 }
 
 .rijks{
   position: absolute;
   top: 440px;
-  left: 950px;
-  width: 370px;
+  left: 63%;
+  width: 25%;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -187,8 +187,8 @@ img {
 .imggal{
   position: absolute;
   top: 740px;
-  left: 725px;
-  width: 600px;
+  left: 47%;
+  width: 40%;
   background-color: black;
 }
 
@@ -225,7 +225,7 @@ div.desc {
 
 div.tentoonstelling {
   height: 444px;
-  width: 520px;
+  width: 35%;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -233,7 +233,7 @@ div.tentoonstelling {
   background-color: black;
   position: absolute;
   top: 740px;
-  left: 210px;
+  left: 14%;
 }
 
 div.tentoonstelling h3 {
