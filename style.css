@@ -338,19 +338,19 @@ footer {
 footer .vestiging{
   position: absolute;
   top: 10px;
-  left: 650px;
+  left: 43%;
 }
 
 footer .rijksmuseumcon{
   position: absolute;
   top: 10px;
-  left: 220px;
+  left: 14%;
 }
 
 footer .bezoeker{
   position: absolute;
   top: 10px;
-  left: 1100px;
+  left: 72%;
 
 }
 
@@ -358,20 +358,21 @@ p.open {
   padding-bottom: 20px;
   position: absolute;
   bottom: 0px;
-  left: 220px;
+  left: 14%;
 }
 
 .mail{
   position: absolute;
   bottom: 20px;
-  left: 650px;
+  left: 43%;
   color: white;
 }
 
 .tel{
   position: absolute;
   bottom: 20px;
-  left: 1100px;
+  left: 72%;
   color: white;
 }
 
+@media screen and (max-width:1000px)

@@ -32,11 +32,13 @@
 var img1 = "img/rijksmuseum.jpg";
 var img2 = "img/wit.jpg";
 var img3 = "img/slagwaterloo.jpg";
+var img4 = "img/aardappel-close-up.jpg"
+var img5 = "img/vergadering.jpg"
 var imgElement = document.getElementById("img");
 
 function onClickNext(){
     position = position + 1
-    if (position == 3){
+    if (position == 5){
         position = 0;
     }
     setImage();
@@ -45,7 +47,7 @@ function onClickNext(){
 function onClickPrevious(){
     position = position - 1
     if (position == -1){
-        position = 2;
+        position = 4;
     }
     setImage();
 }
@@ -59,6 +61,12 @@ function setImage(){
     }
     else if (position == 2){
         imgElement.src = img3;
+    }
+    else if (position == 3){
+        imgElement.src = img4;
+    }
+    else if (position == 4){
+        imgElement.src = img5;
     }
 }
   </script>
