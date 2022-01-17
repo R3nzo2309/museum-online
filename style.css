@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -16,13 +16,11 @@ body{
 h1{
   display: inline-block;
   font-size: 250%;
-  margin-bottom: 20px;
   border-bottom: 1px solid black;
 }
 
 header{
-  margin: 0 auto;
-  padding: 40px;
+  margin: auto;
   background-color: black;
   color: white;
   display: flex;
@@ -33,7 +31,6 @@ header{
 
 ul.navi {
   list-style-type: none;
-  margin: 20px;
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -64,6 +61,9 @@ div.slideshow {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.slideshow a {
@@ -132,12 +132,12 @@ div.slideshow img {
 }
 
 .paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  margin-bottom: 20px;
   color: white;
-  width: 70%;
-  display: block;
-  padding-left: 40px;
-  padding-bottom: 40px;
-  text-align: left;
 }
 
 .paragraph p{
@@ -147,36 +147,25 @@ div.slideshow img {
 }
 
 .beginning{
-  position: absolute;
-  top: 440px;
-  width: 25%;
-  left: 14%;
-  border-radius: 10px 0px 0px 10px;
+  width: 24%;
+  margin: 0;
 }
 
 .koninklijk{
-  position: absolute;
-  top: 440px;
-  left: 39%;
-  width: 25%;
+  margin: 0;
+  width: 24%;
 }
 
 .rijks{
-  position: absolute;
-  top: 440px;
-  left: 63%;
-  width: 25%;
-  border-radius: 0px 10px 10px 0px;
+  margin: 0;
+  width: 24%;
 }
 
 .infobutton{
   border: 1px white solid;
   border-radius: 25px;
   color: white;
-  padding: 10px;
-  position: absolute;
-  top: 200px;
-  left: 10px;
+  padding:0px 5px 5px 5px;
 }
 
 img {
