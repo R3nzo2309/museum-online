@@ -168,6 +168,14 @@ div.slideshow img {
   padding:0px 5px 5px 5px;
 }
 
+.tentoonstellingimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72%;
+  height: 500px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -236,62 +244,31 @@ p.tentoon {
 
 .interactieveRoute{
   height: 500px;
-  width: 1110px;
+  width: 72%;
   background-color: white;
-  position: absolute;
-  top: 1210px;
-  left: 210px;
-  opacity: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .commands{
   height: 100px;
-  width: 1110px;
+  width: 72%;
   background-color: white;
-  position: absolute;
-  top: 1730px;
-  left: 210px;
-  opacity: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
 }
 
 .review{
   height: 250px;
-  width: 1110px;
+  width: 72%;
   background-color: white;
   position: absolute;
   top: 1890px;
   left: 210px;
-  opacity: 25%;
-}
-
-.review1{
-  height: 250px;
-  width: 350px;
-  background-color: gray;
-  opacity: 30%;
-  border-radius: 20px;
-}
-
-.review2{
-  height: 250px;
-  width: 350px;
-  background-color: gray;
-  opacity: 30%;
-  position: absolute;
-  left: 380px;
-  top: 0px;
-  border-radius: 20px;
-}
-
-.review3{
-  height: 250px;
-  width: 350px;
-  background-color: gray;
-  opacity: 30%;
-  position: absolute;
-  left: 760px;
-  top: 0px;
-  border-radius: 20px;
 }
 
 button{
