@@ -15,7 +15,7 @@ body{
 
 h1{
   display: inline-block;
-  font-size: 250%;
+  font-size: 225%;
   border-bottom: 1px solid black;
 }
 
@@ -23,10 +23,10 @@ header{
   margin: auto;
   background-color: black;
   color: white;
+  height: 100px;
+  width: 72%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100px;
 }
 
 ul.navi {
@@ -34,6 +34,9 @@ ul.navi {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width: 72%;
+  display: inline-flex;
+  align-items: center;
 }
 
 li.navi {
@@ -166,6 +169,8 @@ div.slideshow img {
   border-radius: 25px;
   color: white;
   padding:0px 5px 5px 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .tentoonstellingimg{
@@ -236,6 +241,7 @@ div.tentoonstelling {
 div.tentoonstelling h3 {
   border-bottom: 1px solid white;
   width: 46%;
+  padding-top: 10px;
 }
 
 p.tentoon {
@@ -298,7 +304,7 @@ footer {
   position: absolute;
   top: 2200px;
   width: 100%;
-  height: 200px;
+  height: 170px;
 }
 
 footer .vestiging{
@@ -329,14 +335,16 @@ p.open {
 
 .mail{
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
+  padding-bottom: 20px;
   left: 43%;
   color: white;
 }
 
 .tel{
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
+  padding-bottom: 20px;
   left: 72%;
   color: white;
 }
