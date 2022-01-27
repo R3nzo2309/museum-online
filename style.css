@@ -349,4 +349,31 @@ p.open {
   color: white;
 }
 
+.testimonials {
+  overflow: hidden;
+  position: relative;
+  max-height: 300px;
+}
+
+.testimonials {
+  background: #161d25;
+}
+
+.one-slide,
+.testimonial,
+.message {
+  border: none !important;
+  outline: none !important;
+}
+
+.icon-overlay {
+  position: absolute;
+  opacity: 0.3;
+  right: 10%;
+  top: 0;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
 @media screen and (max-width:1000px)
